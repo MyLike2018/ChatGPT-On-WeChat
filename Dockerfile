@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.12.0a5-slim
 WORKDIR /app
 ARG POETRY_VERSION=1.2.2
 RUN apt-get update && \
